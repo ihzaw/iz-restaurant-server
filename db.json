@@ -1,0 +1,82 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "sample",
+      "email": "sample@mail.com",
+      "password": "sample",
+      "role": "admin",
+      "phoneNumber": "123412341234",
+      "address": "sample address"
+    },
+    {
+      "name": "Sample 2",
+      "username": "sample2",
+      "email": "sample2@mail.com",
+      "password": "sample",
+      "verPassword": "sample",
+      "role": "Admin",
+      "phoneNumber": "123412341234",
+      "address": "address",
+      "id": 2
+    },
+    {
+      "name": "Sample 3",
+      "username": "sample3",
+      "email": "sample3@mail.com",
+      "password": "sample",
+      "verPassword": "sample",
+      "role": "Admin",
+      "phoneNumber": "123412341234",
+      "address": "address",
+      "id": 3
+    }
+  ],
+  "Items": [
+    {
+      "id": 1,
+      "name": "yam goreng",
+      "description": "ayam goreng yang menggunakan tepung dengan bumbu rahasia",
+      "price": 22000,
+      "imgUrl": "https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg",
+      "authorId": 1,
+      "categoryId": 1,
+      "createdAt": "new Date",
+      "updatedAt": "new Date"
+    },
+    {
+      "id": 2,
+      "name": "yam goreng spesial",
+      "description": "ayam goreng yang menggunakan tepung dengan bumbu rahasia dan spesial",
+      "price": 28000,
+      "imgUrl": "https://images-gmi-pmc.edge-generalmills.com/6fbc6859-e2b1-499d-b0fa-ada600c9cc3f.jpg",
+      "authorId": 1,
+      "categoryId": 1,
+      "createdAt": "new Date",
+      "updatedAt": "new Date"
+    }
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "name": "Main dish"
+    }
+  ],
+  "Ingredients": [
+    {
+      "id": 1,
+      "itemId": 1,
+      "name": "Bawang putih"
+    },
+    {
+      "id": 2,
+      "itemId": 1,
+      "name": "Bawang merah"
+    },
+    {
+      "id": 3,
+      "itemId": 1,
+      "name": "Ketumbar"
+    }
+  ]
+}
